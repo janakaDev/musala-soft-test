@@ -1,5 +1,14 @@
-# med-ts-node
+Musala Soft Test
 
-This is the source code for my tutorial on medium
+Musala soft test
 
-[Article link](https://medium.com/swlh/typescript-with-mongoose-and-node-express-24073d51d2ee)
+Instructions
+1.	Run npm install
+2.	Run npm start
+Then the project should be ready to use.
+
+MongoDB
+I have added ‘mongodb://localhost:27017/gateway’ as the db. 
+
+I did not have the time to do the unit testing. Apologies for that.
+
