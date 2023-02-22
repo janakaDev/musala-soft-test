@@ -1,0 +1,18 @@
+root: true
+parser: '@typescript-eslint/parser'
+plugins:
+  - '@typescript-eslint'
+extends:
+  - google
+  - eslint:recommended
+  - plugin:@typescript-eslint/eslint-recommended
+  - plugin:@typescript-eslint/recommended
+  - prettier
+
+rules:
+  'require-jsdoc': 0
+  '@typescript-eslint/no-explicit-any': 0
+  'no-case-declarations': 0
+
+ignorePatterns:
+  - 'coverage/**/*'
